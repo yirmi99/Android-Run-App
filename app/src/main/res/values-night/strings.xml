@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Just Run</string>
+    <string name="logo_description" translatable="false">App Logo</string>
+    <string name="start">Start</string>
+    <string name="weather_loading">Weather: Loading…</string>
+    <string name="show_history">SAVED RUNS</string>
+    <string name="inspirational_quote" translatable="false">Keep running, keep shining!</string>
+    <string name="weather_loading_failed">Failed to load weather information</string>
+    <string name="creator_names" translatable="false">Guy, Shahar &amp; Yirmi</string>
+    <string name="historyTitle">My History</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="stop_running">Finish Run</string>
+    <string name="stop_save_running">Finish and Save Run</string>
+    <string name="deleteAllHistory">Delete All</string>
+    <string name="Settings">Settings</string>
+
+    <!-- Setting Activity -->
+    <string name="Dark_Mode">Dark Mode</string>
+
+
+
+
+
+</resources>

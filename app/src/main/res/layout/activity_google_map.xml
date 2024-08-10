@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".GoogleMapActivity">
+
+    <!-- Map View -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/mapView"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttonsLayout"
+        android:layout_alignParentTop="true" />
+
+    <!-- Distance TextView -->
+    <TextView
+        android:id="@+id/distanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance: 0 km"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:background="#80000000"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp" />
+
+    <!-- Start Time TextView -->
+<!--    <TextView-->
+<!--        android:id="@+id/startTimeTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Start Time: &#45;&#45;:&#45;&#45;:&#45;&#45;"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:padding="8dp"-->
+<!--        android:background="#80000000"-->
+<!--        android:layout_below="@id/distanceTextView"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_margin="16dp" />-->
+
+    <!-- Timer -->
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:background="#80000000"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/buttonsLayout"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Buttons Layout -->
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/stop_running" />
+
+        <Button
+            android:id="@+id/stopSaveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="@string/stop_save_running" />
+    </LinearLayout>
+</RelativeLayout>

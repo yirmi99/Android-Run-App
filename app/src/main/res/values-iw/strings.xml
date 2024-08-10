@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Run</string>
+    <string name="start"> התחל ריצה</string>
+    <string name="weather_loading">מזג אוויר מתעדכן....</string>
+    <string name="show_history">ריצות שמורות</string>
+    <string name="weather_loading_failed">נכשלה ההורדה של מזג האוויר</string>
+    <string name="historyTitle">ריצות שמורות</string>
+    <string name="stop_running">סיים ריצה</string>
+    <string name="stop_save_running">סיים ושמור ריצה</string>
+    <string name="deleteAllHistory">מחק הכל</string>
+    <string name="Settings">הגדרות</string>
+    <string name="Dark_Mode">מצב החשכה</string>
+    <string name="StartBtn">התחל</string>
+    <string name="chooseLanguage">בחר שפה</string>
+    <string name="enable">אפשר החשכה</string>
+    <string name="disable">בטל החשכה</string>
+    <string name="runNumber">ריצה מספר</string>
+    <string name="Date">תאריך</string>
+    <string name="Duration">משך זמן</string>
+    <string name="Kilometers">קילומטרים</string>
+
+</resources>
